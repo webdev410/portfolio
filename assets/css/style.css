@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 nav {
         background-color: var(--dark);
+        border-bottom: 5px solid var(--hover);
 }
 
 .nav-link {
@@ -32,10 +33,10 @@ nav {
         background-color: var(--dark);
         text-align: center;
         justify-content: center;
-        /* background-image: url(/assets/img/ak.png);
+        background-image: url(/assets/img/ak.png);
         background-repeat: no-repeat;
         background-size: 800px;
-        background-position: center;  */
+        background-position: bottom; 
 }
 
 .card {
@@ -66,8 +67,7 @@ nav {
         border: 5px solid var(--light);
 }
 
-#about{
-        margin: 400px 0px 0px 0px;
+#resume{
         height: 100vh;
         
 }
@@ -146,4 +146,12 @@ i:hover{
         padding: 25px;
         border-bottom: 3px solid white;
 
+}
+
+.container-fluid {
+        height: 80vh;
+}
+
+.columns2 {
+        column-count: 2;
 }
