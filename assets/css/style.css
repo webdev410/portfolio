@@ -72,3 +72,28 @@ img {
         width: 100%;
         
 }
+
+li {
+        list-style: none;
+        text-align: center;
+}
+
+
+.jobDescription {
+        line-height: .5em;
+        margin-top: 25px;
+}
+
+.resumeTitle {
+        margin-top: 25px;
+        padding-top: 10px;
+        border-top: 1px solid var(--light);
+}
+
+.position{
+        font-style: italic;
+}
+
+.sectionTitle {
+        color: white;
+}
