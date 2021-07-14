@@ -14,7 +14,9 @@ h1, h2, h3, h4, h5, h6, p {
         color: var(--light);
         text-align: center;
 }
-
+nav {
+        background-color: var(--dark);
+}
 
 .nav-link {
         color: white;
@@ -113,14 +115,14 @@ li {
 }
 
 i{
-        color: var(--light);
-        font-size: 36px;
-        padding: 10px;
+        color: white;
+        font-size: 20px;
+        
         margin: 15px;
         
 }
 i:hover{
-        color: white;
+        color: var(--light);
 }
 #contactContent {
         text-align: center;
@@ -130,3 +132,4 @@ i:hover{
         border: 2px solid var(--light);
         font-family: 'Roboto', sans-serif;
 }
+
