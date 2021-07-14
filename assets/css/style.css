@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p {
         /* background-image: url(/assets/img/ak.png);
         background-repeat: no-repeat;
         background-size: 800px;
-        background-position: center; */
+        background-position: center;  */
        
 }
 
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, p {
         margin-bottom: 50px;
 }
 
-.tabContent{
+.tab-content{
         color: var(--light);
 }
 
