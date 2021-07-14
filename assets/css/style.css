@@ -3,6 +3,9 @@
         --light:rgb(230, 100, 0);
 }
 
+* {
+      font-family: 'Roboto', sans-serif;
+}
 body {
         background-color:var(--dark);
 }
@@ -22,7 +25,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header {
-        height: 50vh;
+        height: 35vh;
         background-color: var(--dark);
         text-align: center;
         justify-content: center;
@@ -48,6 +51,7 @@ h1, h2, h3, h4, h5, h6, p {
         border: 5px solid var(--light);
         padding: 100px 50px 100px 50px;
         width: 25%;
+        font-size: x-large;
 }
 
 .btn-primaryAK:hover {
@@ -61,7 +65,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #about{
-        margin-bottom: 50px;
+        margin: 50px 0px 0px 0px;
+        
 }
 
 .tab-content{
@@ -96,4 +101,7 @@ li {
 
 .sectionTitle {
         color: white;
+}
+.pillAK {
+        background-color: var(--dark);
 }
