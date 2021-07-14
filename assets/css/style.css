@@ -33,10 +33,10 @@ nav {
         background-color: var(--dark);
         text-align: center;
         justify-content: center;
-        background-image: url(/assets/img/ak.png);
+        /* background-image: url(/assets/img/ak.png);
         background-repeat: no-repeat;
         background-size: 800px;
-        background-position: bottom; 
+        background-position: bottom;  */
 }
 
 .card {
@@ -90,6 +90,7 @@ li {
 .jobDescription {
         line-height: 1em;
         margin-top: 25px;
+        font-weight: 400;
 }
 
 .resumeTitle {
@@ -97,14 +98,18 @@ li {
         padding-top: 10px;
         border-top: 1px solid var(--light);
         color: white;
+        font-weight: 500;
 }
 
 .position {
         font-style: italic;
+        font-weight: 500;
 }
 
 .sectionTitle {
         color: white;
+        font-weight: 500;
+        letter-spacing: 2px;
 }
 
 .pillAK {
@@ -131,7 +136,7 @@ i:hover{
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
         background-color: var(--dark);
         border: 2px solid var(--light);
-        font-family: 'Roboto', sans-serif;
+       
 }
 
 
@@ -145,6 +150,7 @@ i:hover{
         margin: 25px;
         padding: 25px;
         border-bottom: 3px solid white;
+        letter-spacing: 5px;
 
 }
 
@@ -155,3 +161,15 @@ i:hover{
 .columns2 {
         column-count: 2;
 }
+
+
+
+.socialBar {
+        text-align: center;
+}
+
+a:hover {
+        text-decoration: none;
+        color: white;
+}
+
