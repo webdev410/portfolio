@@ -52,7 +52,7 @@ nav {
         color: var(--dark);
         border: 5px solid var(--light);
         padding: 100px 50px 100px 50px;
-        width: 25%;
+        width: 80%; 
         font-size: x-large;
 }
 
