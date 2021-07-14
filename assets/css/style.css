@@ -105,3 +105,28 @@ li {
 .pillAK {
         background-color: var(--dark);
 }
+
+
+#contact {
+        margin-top: 50px
+        
+}
+
+i{
+        color: var(--light);
+        font-size: 36px;
+        padding: 10px;
+        margin: 15px;
+        
+}
+i:hover{
+        color: white;
+}
+#contactContent {
+        text-align: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        background-color: var(--dark);
+        border: 2px solid var(--light);
+        font-family: 'Roboto', sans-serif;
+}
