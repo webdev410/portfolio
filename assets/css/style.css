@@ -87,7 +87,7 @@ li {
 
 
 .jobDescription {
-        line-height: .5em;
+        line-height: 1em;
         margin-top: 25px;
 }
 
@@ -95,32 +95,32 @@ li {
         margin-top: 25px;
         padding-top: 10px;
         border-top: 1px solid var(--light);
+        color: white;
 }
 
-.position{
+.position {
         font-style: italic;
 }
 
 .sectionTitle {
         color: white;
 }
+
 .pillAK {
         background-color: var(--dark);
 }
-
 
 #contact {
         margin-top: 50px
         
 }
 
-i{
+i {
         color: white;
         font-size: 20px;
-        
         margin: 15px;
-        
 }
+
 i:hover{
         color: var(--light);
 }
