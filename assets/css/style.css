@@ -1,6 +1,7 @@
 :root {
         --dark: rgb(34, 34, 34);
         --light:rgb(230, 100, 0);
+        --hover: rgba(0, 0, 0, 0.24);
 }
 
 * {
@@ -35,7 +36,6 @@ nav {
         background-repeat: no-repeat;
         background-size: 800px;
         background-position: center;  */
-       
 }
 
 .card {
@@ -57,7 +57,7 @@ nav {
 }
 
 .btn-primaryAK:hover {
-        background-color: rgba(0, 0, 0, 0.24);
+        background-color: var(--hover);
         border: 5px solid var(--light);
         color: white;
 }
@@ -67,7 +67,8 @@ nav {
 }
 
 #about{
-        margin: 50px 0px 0px 0px;
+        margin: 400px 0px 0px 0px;
+      
         
 }
 
@@ -112,7 +113,6 @@ li {
 
 #contact {
         margin-top: 50px
-        
 }
 
 i {
@@ -134,3 +134,16 @@ i:hover{
         font-family: 'Roboto', sans-serif;
 }
 
+
+.nav-link:focus, .nav-link:hover {
+    background-color: var(--hover);
+    color: white;
+}
+
+.TitleText {
+        color: white;
+        margin: 25px;
+        padding: 25px;
+        border-bottom: 3px solid white;
+
+}
