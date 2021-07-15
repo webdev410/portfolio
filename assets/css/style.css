@@ -58,6 +58,8 @@ nav {
         padding: 100px 50px 100px 50px;
         width: 80%; 
         font-size: x-large;
+        text-align: center;
+        word-break: inherit;
 }
 
 .btn-primaryAK:hover {
@@ -128,7 +130,7 @@ li {
 
 i {
         color: white;
-        font-size: 20px;
+        /* font-size: 20px; */
         margin: 15px;
 }
 
@@ -142,7 +144,6 @@ i:hover{
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
         background-color: var(--dark);
         border: 2px solid var(--light);
-       
 }
 
 
@@ -157,15 +158,11 @@ i:hover{
         padding: 25px;
         border-bottom: 3px solid white;
         letter-spacing: 3px;
-
 }
-
 
 .columns2 {
         column-count: 2;
 }
-
-
 
 .socialBar {
        text-align: center;
@@ -178,3 +175,13 @@ a:hover {
 
 
 
+.typewriter {
+        font-size: x-large;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 300;
+}
+span {
+        font-size: x-large;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+}
