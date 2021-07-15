@@ -7,7 +7,6 @@
 
 * {
       font-family: 'Lato', sans-serif;
-        
       scroll-behavior: smooth;
 }
 body {
@@ -18,10 +17,10 @@ h1, h2, h3, h4, h5, h6, p {
         color: var(--light);
         text-align: center;
 }
+
 nav {
         background-color: var(--dark);
         border-bottom: 5px solid var(--hover);
-        
 }
 
 .nav-link {
@@ -37,10 +36,10 @@ nav {
         background-color: var(--dark);
         text-align: center;
         justify-content: center;
-        /* background-image: url(/assets/img/ak.png);
+        background-image: url(/assets/img/ak.png);
         background-repeat: no-repeat;
         background-size: 800px;
-        background-position: bottom;  */
+        background-position: bottom; 
 }
 
 .card {
@@ -174,8 +173,6 @@ a:hover {
         color: white;
 }
 
-
-
 .typewriter {
         font-size: x-large;
         font-family: 'Roboto Mono', monospace;
@@ -190,37 +187,29 @@ span {
 label, input{
         color: var(--light);
         background-color: var(--dark);
-    
-      
 }
 
 textarea {
         resize: none;
-        
-        
 }
 
 .form-control {
         background-color: var(--dark);
         color: var(--light);
-      
-        
 }
+
 .form-control:focus {
         background-color: var(--dark);
         color: var(--light);
         border: 2px solid var(--light);
-     
 }
 .form-control:active {
         background-color: var(--dark);
         color: var(--light);
-        
 }
 .form-control:target {
         background-color: var(--dark);
         color: var(--light);
-        
 }
 
 #submitBtn {
@@ -230,8 +219,8 @@ textarea {
         padding:10px;
         border-radius: 5px;
 }
+
 #submitBtn:hover {
         border: 2px solid white;
         color: white;
-        
 }
