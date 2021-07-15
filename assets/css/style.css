@@ -6,6 +6,7 @@
 
 * {
       font-family: 'Roboto', sans-serif;
+      scroll-behavior: smooth;
 }
 body {
         background-color:var(--dark);
@@ -18,6 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
 nav {
         background-color: var(--dark);
         border-bottom: 5px solid var(--hover);
+        
 }
 
 .nav-link {
@@ -29,7 +31,7 @@ nav {
 }
 
 .header {
-        height: 35vh;
+        height: 100vh;
         background-color: var(--dark);
         text-align: center;
         justify-content: center;
