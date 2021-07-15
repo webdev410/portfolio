@@ -32,14 +32,14 @@ nav {
 }
 
 .header {
-        height: 35vh;
+        height: 100vh;
         background-color: var(--dark);
         text-align: center;
         justify-content: center;
-        background-image: url(/assets/img/ak.png);
+        /* background-image: url(/assets/img/ak.png);
         background-repeat: no-repeat;
         background-size: 800px;
-        background-position: bottom; 
+        background-position: bottom;  */
 }
 
 .card {
