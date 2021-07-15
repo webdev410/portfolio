@@ -2,6 +2,7 @@
         --dark: rgb(34, 34, 34);
         --light:rgb(230, 100, 0);
         --hover: rgba(0, 0, 0, 0.24);
+        --grayDark: #ced4da;
 }
 
 * {
@@ -72,7 +73,7 @@ nav {
         border: 5px solid var(--light);
 }
 
-#resume{
+#header, #resume, #contact, #myWork{
         height: 100vh;
         
 }
@@ -184,4 +185,53 @@ span {
         font-size: x-large;
         font-family: 'Roboto Mono', monospace;
         font-weight: 400;
+}
+
+label, input{
+        color: var(--light);
+        background-color: var(--dark);
+    
+      
+}
+
+textarea {
+        resize: none;
+        
+        
+}
+
+.form-control {
+        background-color: var(--dark);
+        color: var(--light);
+      
+        
+}
+.form-control:focus {
+        background-color: var(--dark);
+        color: var(--light);
+        border: 2px solid var(--light);
+     
+}
+.form-control:active {
+        background-color: var(--dark);
+        color: var(--light);
+        
+}
+.form-control:target {
+        background-color: var(--dark);
+        color: var(--light);
+        
+}
+
+#submitBtn {
+        background-color: var(--dark);
+        color: var(--grayDark);
+        border: 2px solid var(--grayDark);
+        padding:10px;
+        border-radius: 5px;
+}
+#submitBtn:hover {
+        border: 2px solid white;
+        color: white;
+        
 }
