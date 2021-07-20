@@ -51,7 +51,7 @@ nav {
         
 }
 
-.btn-primaryAK {
+.projectDiv {
         background-color: var(--dark);
         color: var(--light);
         border: 5px solid var(--light);
@@ -60,17 +60,18 @@ nav {
         font-size: x-large;
         text-align: center;
         word-break: inherit;
+        position: relative;
 }
 
-.btn-primaryAK:hover {
+/* .projectDiv:hover {
         background-color: var(--hover);
         border: 5px solid var(--light);
         color: white;
-}
+} */
 
-.btn-primaryAK:active {
+/* .projectDiv:active {
         border: 5px solid var(--light);
-}
+} */
 
 #header, #resume, #contact, #myWork{
         height: 100%;
@@ -124,9 +125,7 @@ li {
         background-color: var(--dark);
 }
 
-#contact {
-        margin-top: 50px
-}
+
 
 i {
         color: white;
@@ -222,5 +221,105 @@ textarea {
 
 #submitBtn:hover {
         border: 2px solid white;
+        color: white;
+}
+
+#weather-dash {
+        background-image: url(../img/weather-dash.png);
+        background-size: cover;
+}
+
+#code-quiz {
+        background-image: url(../img/code-quiz.png);
+        background-size: cover;
+}
+
+#rhymetight {
+        background-image: url(../img/rhymetight.png);
+        background-size: cover;
+}
+
+#planner{ 
+        background-image: url(../img/scheduler.png);
+        background-size: cover;
+}
+
+#pwd-gen {
+        background-image: url(../img/password-gen.png);
+        background-size: cover;
+}
+
+#event-finder {
+ background-image: url(../img/event-finder.png);
+        background-size: cover;
+}
+
+mark{
+        background-color: var(--dark);
+        color: var(--light);
+        padding: 10px;
+        /* border-radius: 10px; */
+        
+}
+
+.gitBtn{
+        background-color: var(--dark);
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        display: inline;
+        height: 50px;
+        margin-top: 20px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.gitLink {
+        right: 50px;
+        bottom: 0;
+}
+
+.liveLink {
+        right: 0;
+        bottom: 0;
+}
+
+.divider {
+        margin: 100vh;
+}
+
+.heroAK {
+        margin-top: 30vh;
+}
+
+.scrolly {
+        margin-top: 175px;
+        letter-spacing: 3px;
+          text-align: center;
+          color: var(--light);
+
+          animation-delay: 1000ms;
+}
+
+.light {
+        color: var(--light);
+      
+}
+
+.scrolly h4 {
+        color: rgba(255, 255, 255, 0.219);
+}
+
+.scrolly h4:hover {
+        color: white;
+}
+
+.scrollyIcon{
+        color: rgba(255, 255, 255, 0.219);
+}
+
+.scrollyIcon:hover {
         color: white;
 }
